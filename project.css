@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui;
+    color: #555;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+  margin: 2rem;
+  background-color: rgb(51, 12, 85);
+    text-align: center;
+
+  }
+  .user_breif{
+    display: inline-block;
+    margin: 1rem;
+    width: 15rem;
+    height: 18rem;
+    color: black;
+    border: 0.2rem solid rgb(255,255,255,0.5);
+    border-radius: 1rem;
+    background-color: rgb(188, 136, 188);
+      text-align: center;
+  }
+  .user_dataa{
+    margin-top: 6rem;
+  }
+  #data{
+    background-color: rgb(88, 35, 135);
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+ display: inline-block;
+  }
+  .user__img{
+    margin: 2rem;
+    border-radius: 20rem;
+    width: 8rem
+  }
+  .see_profile{
+   
+    display: inline-block;
+  padding: 0.1rem 1rem;
+  background-color:rgb(151, 118, 180);
+   margin: 1rem 0;
+    border: 2px solid black;
+  align-items: center;
+    border-radius: 1rem;
+  }
+  .see_profile a{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .see_profile:hover,
+  .see_profile a:hover{
+   
+    cursor: pointer;
+    background-color: rgb(167, 160, 152);
+  }
+
+
+  
